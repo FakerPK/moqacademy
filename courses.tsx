@@ -31,7 +31,7 @@ const courses = [
 
 export function Courses() {
   const handleEnrollClick = () => {
-    window.open("https://api.whatsapp.com/send/?phone=923171215124", "_blank")
+    window.open(" https://wa.me/923122813701", "_blank")
   }
 
   return (

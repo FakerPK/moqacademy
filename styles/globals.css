@@ -16,3 +16,44 @@
   animation: float 3s ease-in-out infinite;
 }
 
+@keyframes glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 5px rgba(0, 255, 242, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(0, 255, 242, 0.9));
+  }
+}
+
+.logo-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+/* Disable selection for all elements except inputs and textareas */
+*:not(input, textarea) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Allow selection in editable areas */
+input, textarea, [contenteditable] {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* Disable image dragging */
+img, image, svg {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+}
+

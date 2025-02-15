@@ -22,7 +22,7 @@ const features = [
   {
     icon: Clock,
     title: "Flexible Timing",
-    description: "6 days a week availability",
+    description: "5 days a week availability",
   },
   {
     icon: GraduationCap,
