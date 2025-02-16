@@ -1,0 +1,12 @@
+[build]
+  publish = "out"  # This is the directory where your built files will be located
+  command = "npm run build"  # This is the command to build your Next.js app
+
+[functions]
+  directory = "netlify/functions"  # This is the directory for your serverless functions
+
+# Optional: Redirects and rewrites can be added here
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
