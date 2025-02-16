@@ -93,7 +93,7 @@ export default function Home() {
 
           <div className="relative w-full h-full flex items-center justify-center p-2">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitlesd-lp36uaSLsIUWA0rrqN99Gn3kMcibNq.png"
+              src="moqlogo.png"
               alt="MOQ Academy Logo"
               width={220}
               height={66}
@@ -132,7 +132,7 @@ export default function Home() {
               transition={{ duration: 1, delay: 0.2 }}
             >
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iqrabismi-SO3irbghnaCNDo0p9Rpm3w87d9yLR9.png"
+                src="/assets/iqrabismi.png"
                 alt="Arabic Calligraphy - Iqra Bismillah"
                 width={600}
                 height={120}
